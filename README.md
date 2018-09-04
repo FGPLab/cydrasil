@@ -9,7 +9,7 @@ Daniel Roush, Ana Giraldo-Silva, Vanessa M. C. Fernandes, Nathali Maria Machado 
 
 ## **Methods**
 This is a phylogenetic tree containing 980 cyanobacterial sequences, downloaded from NCBI and used for placement of sequence variants (sOTUs) from 16s rRNA gene amplicon studies. 
-The reference alignment was generated using SSUALIGN<sup>1</sup> with default parameters and then masked using SSUMASK with the automatically computed alignment confidence values (posterior probabilities). A maximum-likelihood phylogenetic tree was then generated using the RAxML-HPC2<sup>2</sup> Workflow on XSEDE (8.2.9) on the CIPRES Science Gateway<sup>3</sup>. The ML + thorough bootstrap workflow was used with the following modified parameters: 1000 bootstraps (-N 1000) and the GTRGAMMA model. All other parameters were left at default values.  
+The reference alignment was generated using SSUALIGN<sup>1</sup> with default parameters and then masked using SSUMASK with the automatically computed alignment confidence values (posterior probabilities). A maximum-likelihood phylogenetic tree was then generated using the RAxML-HPC2<sup>2</sup> Workflow on XSEDE (8.2.1) on the CIPRES Science Gateway<sup>3</sup>. The ML + thorough bootstrap workflow was used with the following modified parameters: 1000 bootstraps (-N 1000) and the GTRGAMMA model. All other parameters were left at default values.  
 
 ## **Use**
 A FASTA file containing sequences of interest (typically the reference sequence file from Qiime1/2) is aligned to the reference alignment using an alignment tool. We use PaPaRa<sup>4</sup> alignment and the repository contains a phylip (.phy) alignment to use with PaPaRa. 
