@@ -1,0 +1,12 @@
+Sequences removed from Cydrasil-0.22a
+
+Komvophoron kgarii str Wanggoolba Creek 16S ribosomal RNA gene KC342459
+Chroococcales cyanobacterium SERB 43 16S ribosomal RNA gene KP890765
+Leptolyngbya tentaculiformis SERB 16 16S ribosomal RNA gene KM982565
+Leptolyngbya sp RS01 16S ribosomal RNA gene JX470180
+Chroococcidiopsis sp CC4 16S ribosomal RNA gene DQ914866
+Lyngbya sp SERB 41 16S ribosomal RNA gene KP890763
+Rivularia sp 5PA11 16S ribosomal RNA gene and 16S 23S ribosomal RNA intergenic spacer FJ660987
+Rivularia sp 5PA13 16S ribosomal RNA gene and 16S 23S ribosomal RNA intergenic spacer FJ660986
+Calothrix sp CYN100 16S ribosomal RNA gene JF925326
+Gloeotrichia sp PMC236 04 16S ribosomal RNA gene GQ859628
