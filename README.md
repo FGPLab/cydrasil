@@ -1,4 +1,4 @@
-# **Cydrasil:** A comprehensive phylogenetic tree of cyanobacterial 16s rRNA gene sequences
+# **Cydrasil:** A comprehensive phylogenetic tree of cyanobacterial 16S rRNA gene sequences
 [![DOI](https://zenodo.org/badge/144063861.svg)](https://zenodo.org/badge/latestdoi/144063861)
 
 Daniel Roush, Ana Giraldo-Silva, Vanessa M. C. Fernandes, Nathali Maria Machado de Lima, Corey Nelson, Sam McClintock, Sergio Velasco Ayuso, Kevin Klicki, Blake Dirks, Watson Arantes Gama, Kira Sorochkina, and Ferran Garcia-Pichel
