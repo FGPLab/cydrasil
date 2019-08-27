@@ -1,4 +1,4 @@
-# **Cydrasil 1.5:** A comprehensive phylogenetic tree of cyanobacterial 16s rRNA gene sequences
+# **Cydrasil 1.5:** A comprehensive phylogenetic tree of cyanobacterial 16S rRNA gene sequences
 [![DOI](https://zenodo.org/badge/144063861.svg)](https://zenodo.org/badge/latestdoi/144063861)
 
 Daniel Roush, Ana Giraldo-Silva, Vanessa M. C. Fernandes, Nathali Maria Machado de Lima, Corey Nelson, Sam McClintock, Sergio Velasco Ayuso, Kevin Klicki, Blake Dirks, Watson Arantes, Kira Sorochkina, and Ferran Garcia-Pichel
@@ -14,8 +14,8 @@ Daniel Roush, Ana Giraldo-Silva, Vanessa M. C. Fernandes, Nathali Maria Machado 
 ***
 
 ## **Methods**
-Cydrasil is a sequence database, alignment, and phylogenetic tree containing 1494 cyanobacterial 16S rRNA gene sequences, downloaded from NCBI and IMG and used for placement of sequence variants (sOTUs) from 16s rRNA gene amplicon studies. 
-The reference alignment was generated using SSUALIGN<sup>1</sup> with default parameters. This aligner uses a profile-based alignment strategy, in which each target sequence is aligned independently to a covariance model that uses the 16s rRNA gene secondary structure, and then masked using SSUMASK with the automatically computed alignment confidence values (posterior probabilities). A maximum-likelihood phylogenetic tree was then generated using the RAxML-HPC2<sup>2</sup> Workflow on XSEDE (8.2.12) on the CIPRES Science Gateway<sup>3</sup>. The ML + thorough bootstrap workflow was used with the following modified parameters: 1000 bootstraps (-N 1000) and the GTRGAMMA model. All other parameters were left at default values.  
+Cydrasil is a sequence database, alignment, and phylogenetic tree containing 1494 cyanobacterial 16S rRNA gene sequences, downloaded from NCBI and IMG and used for placement of sequence variants (sOTUs) from 16S rRNA gene amplicon studies. 
+The reference alignment was generated using SSUALIGN<sup>1</sup> with default parameters. This aligner uses a profile-based alignment strategy, in which each target sequence is aligned independently to a covariance model that uses the 16S rRNA gene secondary structure, and then masked using SSUMASK with the automatically computed alignment confidence values (posterior probabilities). A maximum-likelihood phylogenetic tree was then generated using the RAxML-HPC2<sup>2</sup> Workflow on XSEDE (8.2.12) on the CIPRES Science Gateway<sup>3</sup>. The ML + thorough bootstrap workflow was used with the following modified parameters: 1000 bootstraps (-N 1000) and the GTRGAMMA model. All other parameters were left at default values.  
 
 ***
 
