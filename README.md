@@ -22,7 +22,8 @@ The reference alignment was generated using SSUALIGN<sup>1</sup> with default pa
 ## **Use**
 
 ### **Step 1**
-#### **Alignment of query sequences to reference alignment**
+#### **Alignment of query sequences to reference alignment** 
+**There are issues with compiling PaPaRa on new Macs. We will be moving from PaPaRa in Mid-October 2019**
 
 A FASTA file containing sequences of interest (typically the reference sequence file from Qiime1/2) is aligned to the reference alignment. We use PaPaRa<sup>4</sup> alignment and the repository contains a phylip (.phy) alignment to use with PaPaRa. 
 [PaPaRa Installation](https://cme.h-its.org/exelixis/web/software/papara/index.html) [PaPaRa Github](https://github.com/sim82/papara_nt)
