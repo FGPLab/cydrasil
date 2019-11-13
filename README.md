@@ -40,10 +40,12 @@ A FASTA file containing sequences of interest (typically the reference sequence 
 
 -n, Name of output alignment
 
+-r, Prevent PaPaRa from adding gaps in the reference alignment
+
 **Example**
 ```
 papara -t cydrasil-rc1-bipartitions-tree-1000.nwk -s cydrasil-rc1-alignment-phylip.phy 
--q ref-seqs.fasta -n combined-aln
+-q ref-seqs.fasta -r -n combined-aln
 ```
 The output combined alignment (from step 1) is then used as input (argument -s) for RaxML8 evolutionary placement algorithm.
 
