@@ -1,5 +1,5 @@
 
-<img src="images/cydrasil-version-2-logo.png" alt="Cydrasil Logo" width="800"/>
+<img src="https://cydrasil-asset-hosting.s3-us-west-2.amazonaws.com/images/cydrasil-version-2-logo.png" alt="Cydrasil Logo" width="800"/>
 
 # A curated cyanobacterial 16S rRNA gene reference package for sequence placement and *de novo* phylogenetic analysis
 [![DOI](https://zenodo.org/badge/144063861.svg)](https://zenodo.org/badge/latestdoi/144063861)
