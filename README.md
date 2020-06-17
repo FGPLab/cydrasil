@@ -17,7 +17,7 @@ Daniel Roush, Ana Giraldo-Silva, Vanessa M. C. Fernandes, Nathali Maria Machado 
 ***
 ## **About Cydrasil**
 
-Cydrasil is a comprehensivem, curated, and community-built cyanobacterial reference package containing over 1400 16S rRNA gene
+Cydrasil is a comprehensive, curated, and community-built cyanobacterial reference package containing over 1400 16S rRNA gene
 sequences with lengths exceeding 1100 base pairs. Cydrasil offers a curated alignment and a maximum-likelihood
 phylogenetic tree that can be used for sequence placement or <i>de novo</i> phylogenetic reconstructions.
 Cydrasil utilizes phylogenetic placement to give you a complete phylogenetic perspective of your new isolate or amplicon survey.
