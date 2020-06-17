@@ -99,7 +99,7 @@ The reference alignment was generated using [SSU-Align](http://eddylab.org/softw
     >[SSU-Align Information](http://eddylab.org/software/ssu-align/)
     >
     >##### **SSU-Align Use**  
-    >SSU-Align uses a workflow instead of just one command, but has advantages of using the same alignment model as the Cydrasil reference alignment.  
+    >SSU-Align uses a workflow instead of just one command, but has the advantage of using the same alignment model as the Cydrasil reference alignment.  
     >**Importantly**, SSU-Align uses input order instead of input flags (-t) for parameters.  
     >The command ```ssu-align``` will align your query sequences to the SSU-Align 16S model.  
     >```
@@ -204,7 +204,7 @@ The reference alignment was generated using [SSU-Align](http://eddylab.org/softw
     >DATASETS
     >- Turn on phylogenetic placements 
     >- Use “Show query form” to search placement of individiual query sequences
-    >- Insert query sequence ID and use the “highlight option” to display red spheres indicating phylogenic placement of a given query sequence.
+    >- Insert query sequence ID and and click on the sequence ID name to display red circles indicating phylogenic placement of a given query sequence.
 
 ***
 
@@ -214,5 +214,3 @@ The reference alignment was generated using [SSU-Align](http://eddylab.org/softw
 3. 	Miller MA, Pfeiffer W, Schwartz T. 2010. Creating the CIPRES Science Gateway for inference of large phylogenetic trees. 2010 Gatew Comput Environ Work GCE 2010.
 4. 	Berger SA, Stamatakis A. 2011. Aligning short reads to reference alignments and trees. Bioinformatics 27:2068–2075.
 5. 	Letunic I, Bork P. 2016. Interactive tree of life (iTOL) v3: an online tool for the display and annotation of phylogenetic and other trees. Nucleic Acids Res 44:W242–W245.
-
-
