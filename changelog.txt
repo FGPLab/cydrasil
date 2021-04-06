@@ -4,5 +4,32 @@
 ## [3.0] - 2021-04-05
 
 ### Added
+- JSON
+    - Added cydrasil ID {"cyID"}. FORMAT: CY-SOURCE-SOURCEID
+    - Added cydrasil ID w/ taxonomy based on currenty NCBI taxonomy {"cyTaxID"}. 
+    FORMAT: CY-SOURCE-SOURCEID#g__GENUS.s__SPECIES.str__STRAIN
+    - Added isolation source metadata {"isolationSource"} to JSON database. This was dervied from NCBI metadata or 
+    from literature
+    - Added both abbreviated and full NCBI taxonomy {"ncbiAbbTax"} & {"ncbiFullTax"} to JSON database.
+
+- Sequences
+
 ### Changed
+- JSON
+    - The {"name"} JSON key has been depreceated and converted to {"ogCyName"} which preserves the 
+    previous versions of the Cydrasil database (2.0 and earlier) format and name of each sequence
+    - 
+- Phylogeny
+    - Phylogenetic reconstruction is now done using RAxML-ng and modeltest-ng.
+
 ### Removed
+- Sequences
+    # Transition to using sibling clades as root required removal of old outgroup sequences. 
+        - Escherichia coli K12 CP027060
+        - Geobacter sp M21 CP001661
+        - Listeria monocytogenes CP041014
+    # Overrepresentation of single cell genomics sequences for certain species & strains
+        - Prochlorococcus sp./marinus
+            -
+
+        - Microcystis aeruginosa
