@@ -28,8 +28,94 @@
         - Escherichia coli K12 CP027060
         - Geobacter sp M21 CP001661
         - Listeria monocytogenes CP041014
-    # Overrepresentation of single cell genomics sequences for certain species & strains
-        - Prochlorococcus sp./marinus
-            -
-
-        - Microcystis aeruginosa
+    # Overrepresentation of sequences for certain species & strains in single clade
+        # Single cell experiments
+          - Prochlorococcus sp.
+              - AG 363
+                - A04
+                - A05
+                - A15
+                - B05
+                - B11
+                - B18
+                - I21
+                - J23
+                - K07
+                - L17
+                - L19
+                - N16
+                - N20
+                - O06
+                - O16
+                - O21
+                - P06
+                - P08
+                - P15 
+                - P19
+              - AG 402
+                - G23
+                - I05
+                - I22
+                - K05
+                - K14
+                - K21
+                - K22
+                - L18
+                - M15
+                - M23
+                - N10
+                - N21
+                - O21
+                - P16
+                - P18
+              - AG 347
+                - I19
+                - I21
+                - I22
+                - I23
+                - J20
+                - J22
+                - K15
+                - K16
+                - K17
+                - K19
+                - K21
+                - L20
+                - L21
+              - AG 355
+                - K23
+                - N02
+                - N16
+                - N21
+                - P15
+          # Isolates from same geographic location/sampling
+            - Prochlorococcus sp.
+              - MIT9201
+              - MIT9202
+              - MIT9211
+              - MIT9215
+              - MIT9302
+              - MIT9303
+              - MIT9312
+              - MIT9313
+              - MIT0603
+              - MIT0602
+              - MIT0604
+              - MIT0801
+              - MIT0915
+              - MIT1013
+              - MIT1205
+              - MIT1223
+              - MIT1227
+              - MIT1303
+              - MIT1304
+              - MIT1313
+              - MIT1314
+              - MIT1323
+              - MIT1341
+              - MIT9214
+              - MIT9311
+              - MIT9321
+          # Strain Overrepresentation
+            - Microcystis aeruginosa
+              - 
