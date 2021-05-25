@@ -5936,10 +5936,10 @@
     "warnings": "None"
   },
   {
-    "cyID": "",
-    "cyTaxID": "",
-    "dataSource": "Ferran Garcia-Pichel Lab",
-    "dataSourceLink": "http://garcia-pichel.lab.asu.edu/labo/",
+    "cyID": "CY-NCBI-MT664811.1",
+    "cyTaxID": "CY-NCBI-MT664811.1#g__.s__.str__",
+    "dataSource": "NCBI",
+    "dataSourceLink": "https://www.ncbi.nlm.nih.gov/nuccore/MT664811.1",
     "id": "426",
     "isolationSource": "",
     "ncbiAbbTax": "",
