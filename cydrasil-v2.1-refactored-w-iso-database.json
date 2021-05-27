@@ -8386,8 +8386,8 @@
     "warnings": "None"
   },
   {
-    "cyID": "",
-    "cyTaxID": "",
+    "cyID": "CY-NCBI-KC182752.1",
+    "cyTaxID": "CY-NCBI-KC182752.1#g__Leptolyngbya.s__sp.str__C1",
     "dataSource": "NCBI",
     "dataSourceLink": "https://www.ncbi.nlm.nih.gov/nuccore/KC182752",
     "id": "608",
@@ -8400,8 +8400,8 @@
     "warnings": "None"
   },
   {
-    "cyID": "",
-    "cyTaxID": "",
+    "cyID": "CY-NCBI-JX088103.1",
+    "cyTaxID": "CY-NCBI-JX088103.1#g__Leptolyngbya.s__sp.str__CAWBG532",
     "dataSource": "NCBI",
     "dataSourceLink": "https://www.ncbi.nlm.nih.gov/nuccore/JX088103",
     "id": "609",
@@ -8414,8 +8414,8 @@
     "warnings": "None"
   },
   {
-    "cyID": "",
-    "cyTaxID": "",
+    "cyID": "CY-NCBI-HE975019.1",
+    "cyTaxID": "CY-NCBI-HE975019.1#g__Leptolyngbya.s__sp.str__CCAP-1442-1",
     "dataSource": "NCBI",
     "dataSourceLink": "https://www.ncbi.nlm.nih.gov/nuccore/HE975019",
     "id": "610",
@@ -8428,8 +8428,8 @@
     "warnings": "None"
   },
   {
-    "cyID": "",
-    "cyTaxID": "",
+    "cyID": "CY-NCBI-EF088339.1",
+    "cyTaxID": "CY-NCBI-EF088339.1#g__Leptolyngbya.s__sp.str__CENA103",
     "dataSource": "NCBI",
     "dataSourceLink": "https://www.ncbi.nlm.nih.gov/nuccore/EF088339",
     "id": "611",
@@ -8442,22 +8442,22 @@
     "warnings": "None"
   },
   {
-    "cyID": "",
-    "cyTaxID": "",
+    "cyID": "CY-NCBI-EF088333.1",
+    "cyTaxID": "CY-NCBI-EF088333.1#g__Leptolyngbya.s__sp.str__CENA104",
     "dataSource": "NCBI",
     "dataSourceLink": "https://www.ncbi.nlm.nih.gov/nuccore/EF088333",
     "id": "612",
     "isolationSource": "",
     "ncbiAbbTax": "",
     "ncbiFullTax": "",
-    "notes": "All listed strains share the same 16S rRNA gene post masking with SSU-Align",
+    "notes": "Identical sequence with Leptolyngbya sp CENA534 after masking with SSU-Align",
     "ogCyName": "Leptolyngbya sp CENA104 EF088333 and Leptolyngbya sp CENA534 KF246500",
     "sequence": "GATGAACGCTGGCGGTATGCTTAACACATGCAAGTCGAACGGTCTCTTCGGAGATAGTGGCGGACGGGTGAGTAACGCGTGAGAACATGCCTTTAGATTGGGGACAACAGTTGGAAACGACTGCTAATACCGAATGTGCCTTAGGGTGAAAGATTTATTGTCTAGAGATTGGCTCGCGTCAGATTAGCTAGTTGGAGTGGTAACGGCACACCAAGGCGACGATCTGTACTTGGTCTGAGAGGATGACCAGGCACACTGGAACTGAGACACGGTCCAGACTCCTACGGGAGGCAGCAGTGGGGAATTTTCCGCAATGGGCGAAAGCCTGACGGAGCAATACCGCGTGAGGGAGGACGGCTTTTGGGTTGTAAACCTCTTTTATCAGGGAAGAATCGATGACGGTACCTGATGAATCAGCATCGGCTAACTCCGTGCCAGCAGCCGCGGTAATACGGAGGATGCAAGCGTTATCCGGAATTATTGGGCGTAAAGCGTCCGTAGGTGGTTTATCAAGTCTGCTGTCAAAGCGTGCGGCTTAACCGCATAAGGGCAGTGGAAACTGATGAACTAGAGTGCGATAGGGGTAACAGGAATTCCCAGTGTAGCGGTGAAATGCGTAGATATTGGGAAGAACACCAGCGGCGAAAGCGTGTTACTGGGTCTGCACTGACACTGAGGGACGAAAGCTAGGGGAGCGAAAGGGATTAGATACCCCTGTAGTCCTAGCCGTAAACGATGACAACTAGGCGTGGTTCGTATCGACCCGAGCCGTGCCGTAGCCAACGCGTTAAGTTGTCCGCCTGGGGAGTACGCACGCAAGTGTGAAACTCAAAGGAATTGACGGGGGCCCGCACAAGCGGTGGAGTATGTGGTTTAATTCGATGCAACGCGAAGAACCTTACCAAGGCTTGACATCCTCGGAACCCTGATGAAAGTTAGGGGTGCCTTCGGGAGCCGAGAGACAGGTGGTGCATGGCTGTCGTCAGCTCGTGTCGTGAGATGTTGGGTTAAGTCCCGCAACGAGCGCAACCCACGTTTTTAGTTGCCAGCATTCAGTTGGGCACTCTAGAGAGACTGCCGGTGACAAACCGGAGGAAGGTGTGGATGACGTCAAGTCAGCATGCCCCATACGCCTTGGGCTACACACGTACTACAATGCGTCGGACAAAGAGCAGCCAGCCAGCGATGGTGAGCCAATCTCATAAACCGACGCTCAGTTCAGATTGCAGGCTGCAACTCGCCTGCATGAAGGCGGAATCGCTAGTAATCGCAGGTCAGCATACTGCGGTGAATACGTTCCCGGGCCTTGTACACACCGCCCGTCACACCATGGGAGTTGGTCACGCCCGAAGTCGTTACTCTAACTGCTTGCAGAGGAGGACGCCGAAGGTGGGGCTGATGACTGGGGTGAA",
     "warnings": "None"
   },
   {
-    "cyID": "",
-    "cyTaxID": "",
+    "cyID": "CY-NCBI-EF088337.1",
+    "cyTaxID": "CY-NCBI-EF088337.1#g__Leptolyngbya.s__sp.str__CENA112",
     "dataSource": "NCBI",
     "dataSourceLink": "https://www.ncbi.nlm.nih.gov/nuccore/EF088337",
     "id": "613",
@@ -8470,8 +8470,8 @@
     "warnings": "None"
   },
   {
-    "cyID": "",
-    "cyTaxID": "",
+    "cyID": "CY-NCBI-KP835533.1",
+    "cyTaxID": "CY-NCBI-KP835533.1#g__Leptolyngbya.s__sp.str__CENA129",
     "dataSource": "NCBI",
     "dataSourceLink": "https://www.ncbi.nlm.nih.gov/nuccore/KP835533",
     "id": "614",
@@ -8484,8 +8484,8 @@
     "warnings": "None"
   },
   {
-    "cyID": "",
-    "cyTaxID": "",
+    "cyID": "CY-NCBI-KP835534.1",
+    "cyTaxID": "CY-NCBI-KP835534.1#g__Leptolyngbya.s__sp.str__CENA131",
     "dataSource": "NCBI",
     "dataSourceLink": "https://www.ncbi.nlm.nih.gov/nuccore/KP835534",
     "id": "615",
@@ -8498,8 +8498,8 @@
     "warnings": "None"
   },
   {
-    "cyID": "",
-    "cyTaxID": "",
+    "cyID": "CY-NCBI-HQ730083.1",
+    "cyTaxID": "CY-NCBI-HQ730083.1#g__Leptolyngbya.s__sp.str__CENA134",
     "dataSource": "NCBI",
     "dataSourceLink": "https://www.ncbi.nlm.nih.gov/nuccore/HQ730083",
     "id": "616",
@@ -8512,8 +8512,8 @@
     "warnings": "None"
   },
   {
-    "cyID": "",
-    "cyTaxID": "",
+    "cyID": "CY-NCBI-KC695849.1",
+    "cyTaxID": "CY-NCBI-KC695849.1#g__Leptolyngbya.s__sp.str__CENA155",
     "dataSource": "NCBI",
     "dataSourceLink": "https://www.ncbi.nlm.nih.gov/nuccore/KC695849",
     "id": "617",
@@ -8526,8 +8526,8 @@
     "warnings": "None"
   },
   {
-    "cyID": "",
-    "cyTaxID": "",
+    "cyID": "CY-NCBI-KC695850.1",
+    "cyTaxID": "CY-NCBI-KC695850.1#g__Leptolyngbya.s__sp.str__CENA156",
     "dataSource": "NCBi",
     "dataSourceLink": "https://www.ncbi.nlm.nih.gov/nuccore/KC695850",
     "id": "618",
@@ -8540,8 +8540,8 @@
     "warnings": "None"
   },
   {
-    "cyID": "",
-    "cyTaxID": "",
+    "cyID": "CY-NCBI-KR137571.1",
+    "cyTaxID": "CY-NCBI-KR137571.1#g__Leptolyngbya.s__sp.str__CENA350",
     "dataSource": "NCBI",
     "dataSourceLink": "https://www.ncbi.nlm.nih.gov/nuccore/KR137571",
     "id": "619",
@@ -8554,8 +8554,8 @@
     "warnings": "None"
   },
   {
-    "cyID": "",
-    "cyTaxID": "",
+    "cyID": "CY-NCBI-KR137585.1",
+    "cyTaxID": "CY-NCBI-KR137585.1#g__Leptolyngbya.s__sp.str__CENA364",
     "dataSource": "NCBI",
     "dataSourceLink": "https://www.ncbi.nlm.nih.gov/nuccore/KR137585",
     "id": "620",
@@ -8568,8 +8568,8 @@
     "warnings": "None"
   },
   {
-    "cyID": "",
-    "cyTaxID": "",
+    "cyID": "CY-NCBI-KR137593.1",
+    "cyTaxID": "CY-NCBI-KR137593.1#g__Leptolyngbya.s__sp.str__CENA372",
     "dataSource": "NCBI",
     "dataSourceLink": "https://www.ncbi.nlm.nih.gov/nuccore/KR137593",
     "id": "621",
@@ -8582,8 +8582,8 @@
     "warnings": "None"
   },
   {
-    "cyID": "",
-    "cyTaxID": "",
+    "cyID": "CY-NCBI-KR137596.1",
+    "cyTaxID": "CY-NCBI-KR137596.1#g__Leptolyngbya.s__sp.str__CENA375",
     "dataSource": "NCBI",
     "dataSourceLink": "https://www.ncbi.nlm.nih.gov/nuccore/KR137596",
     "id": "622",
@@ -8596,8 +8596,8 @@
     "warnings": "None"
   },
   {
-    "cyID": "",
-    "cyTaxID": "",
+    "cyID": "CY-NCBI-KR137598.1",
+    "cyTaxID": "CY-NCBI-KR137598.1#g__Leptolyngbya.s__sp.str__CENA377",
     "dataSource": "NCBI",
     "dataSourceLink": "https://www.ncbi.nlm.nih.gov/nuccore/KR137598",
     "id": "623",
@@ -8610,8 +8610,8 @@
     "warnings": "None"
   },
   {
-    "cyID": "",
-    "cyTaxID": "",
+    "cyID": "CY-NCBI-KR137608.1",
+    "cyTaxID": "CY-NCBI-KR137608.1#g__Leptolyngbya.s__sp.str__CENA387",
     "dataSource": "NCBI",
     "dataSourceLink": "https://www.ncbi.nlm.nih.gov/nuccore/KR137608",
     "id": "624",
@@ -8624,36 +8624,36 @@
     "warnings": "None"
   },
   {
-    "cyID": "",
-    "cyTaxID": "",
+    "cyID": "CY-NCBI-KF246487.2",
+    "cyTaxID": "CY-NCBI-KF246487.2#g__Monilinema.s__alkalinum.str__CENA520",
     "dataSource": "NCBI",
     "dataSourceLink": "https://www.ncbi.nlm.nih.gov/nuccore/KF246487",
     "id": "625",
     "isolationSource": "",
     "ncbiAbbTax": "",
     "ncbiFullTax": "",
-    "notes": "",
+    "notes": "16S sequence trimmed from operon; FKA Leptolyngbya sp. CENA520",
     "ogCyName": "Leptolyngbya sp CENA520 KF246487",
     "sequence": "GATGAACGCTGGCGGTATGCTTAACACATGCAAGTCGAACGGTCTCTTCGGAGATAGTGGCGGACGGGTGAGTAACGCGTGAGAACATGCCTATCGATTGGGGACAACAGTTGGAAACGACTGCTAATACCGAATGTGCCTTAGGGTGAAAGATTTATCGTCGATAGATTGGCTCGCGTCAGATTAGCTAGTTGGTGAGGTAAAGGCTCACCAAGGCGACGATCTGTAACTGGTCTGAGAGGATGACCAGTCACACTGGAACTGAGACACGGTCCAGACTCCTACGGGAGGCAGCAGTGGGGAATTTTCCGCAATGGGCGAAAGCCTGACGGAGCAATACCGCGTGTGGGAGGACGCTTTTTGGAGTGTAAACCACTTTTATTAGGGAAGAAGAACTGACGGTACCTAATGAATCAGCATCGGCTAACTCCGTGCCAGCAGCCGCGGTAATACGGGGGATGCAAGCGTTATCCGGAATTATTGGGCGTAAAGCGTCCGTAGGTGGCTTATCAAGTCTGTTGTCAAAGCGTGCGGCTCAACCGCATACGGGCGATGGAAACTGATGAGCTAGAGTGCGATAGGGGTCAGGGGAATTCCCGGTGTAGCGGTGAAATGCGTAGATATCGGGAAGAACACCAGTGGCGAAAGCGCCTGACTGGGTCTGCACTGACACTGAGGGACGAAAGCTAGGGGAGCGAAAGGGATTAGATACCCCTGTAGTCCTAGCTGTAAACGATGACAACTAGGTGTGGTTCGTATCGACCCGAGCCGTGCCGTAGCCAACGCGTTAAGTTGTCCGCCTGGGGAGTACGCACGCAAGTGTGAAACTCAAAGGAATTGACGGGGGCCCGCACAAGCGGTGGAGTATGTGGTTTAATTCGATGCAACGCGAAGAACCTTACCAAGGCTTGACATCCTCGGAACCCTGATGAAAGTTAGGGGTGCCTTCGGGAGCCGAGAGACAGGTGGTGCATGGCTGTCGTCAGCTCGTGTCGTGAGATGTTGGGTTAAGTCCCGCAACGAGCGCAACCCACGTTTTTAGTTGCCAGCATTCAGTTGGGCACTCTAGAGAGACTGCCGGTGACAAACCGGAGGAAGGTGTGGATGACGTCAAGTCAGCATGCCCCATACGCCTTGGGCTACACACGTACTACAATGCTTCGGACAAAGGGCAGCCAGACCGCGAGGTTGAGCCAATCCCATAAACCGAGGCACAGTTCAGATTGCAGGCTGCAACTCGCCTGCATGAAGGCGGAATCGCTAGTAATCGCAGGTCAGCATACTGCGGTGAATACGTTCCCGGGCCTTGTACACACCGCCCGTCACACCATGGGAGTTGGTCATGCCCGAAGTCGTTACTCCAACCGTTCGCGGAGGAGGACGCCGAAGGTGGGGCTGATGACTGGGGTGAA",
     "warnings": "None"
   },
   {
-    "cyID": "",
-    "cyTaxID": "",
+    "cyID": "CY-NCBI-KF246498.2",
+    "cyTaxID": "CY-NCBI-KF246498.2#g__Monilinema.s__alkalinum.str__CENA532",
     "dataSource": "NCBI",
     "dataSourceLink": "https://www.ncbi.nlm.nih.gov/nuccore/KF246498",
     "id": "626",
     "isolationSource": "",
     "ncbiAbbTax": "",
     "ncbiFullTax": "",
-    "notes": "",
+    "notes": "16S sequence trimmed from operon; FKA Leptolyngbya sp. CENA532",
     "ogCyName": "Leptolyngbya sp CENA532 KF246498",
     "sequence": "GATGAACGCTGGCGGTATGCTTACCACATGCAAGTCGAACGGTCTCTTCGGAGATAGTGGTGGACGGGTGAGTAACGCGTGAGAACATGCCTATCGATTGGGGACAACAGTTGGAAACGACTGCTAATACCGAATGTGCCTTAGGGTGAAAGATTTATCGTCGATAGATTGGCTCGCGTCAGATTAGCTAGTTGGTGAGGTAAGGGCTCACCAAGGCGACGATCTGTAACTGGTCTGAGAGGATGACCAGTCACACTGGAACTGAGACACGGTCCAGACTCCTACGGGAGGCAGCAGTGGGGAATTTTCCGCAATGGGCGAAAGCCTGACGGAGCAATACCGCGTGTGGGAGGACGCTTTTTGGAGTGTAAACCACTTTTATTAGGGAAGAAGAACTGACGGTACCTAATGAATCAGCATCGGCTAACTCCGTGCCAGCAGCCGCGGTAATACGGGGGATGCAAGCGTTATCCGGAATTATTGGGCGTAAAGCGTCCGTAGGTGGCTTATCAAGTCTGTTGTCAAAGCGTGCGGCTCAACCGCATACGGGCGATGGAAACTGATGAGCTAGAGTGCGATAGGGGTCAGGGGAATTCCCGGTGTAGCGGTGAAATGCGTAGATATCGGGAAGAACACCAGTGGCGAAAGCGCCTGACTGGGTCTGCACTGACACTGAGGGACGAAAGCTAGGGGAGCGAAAGGGATTAGATACCCCTGTAGTCCTAGCTGTAAACGATGACAACTAGGTGTGGTTCGTATCGACCCGAGCCGTGCCGTAGCCAACGCGTTAAGTTGTCCGCCTGGGGAGTACGCACGCAAGTGTGAAACTCAAAGGAATTGACGGGGGCCCGCACAAGCGGTGGAGTATGTGGTTTAATTCGATGCAACGCGAAGAACCTTACCAAGGCTTGACATCCTCGGAACCCTGATGAAAGTTAGGGGTGCCTTCGGGAGCCGAGAGACAGGTGGTGCATGGCTGTCGTCAGCTCGTGTCGTGAGATGTTGGGTTAAGTCCCGCAACGAGCGCAACCCACGTTTTTAGTTGCCAGCATTCAGTTGGGCACTCTAGAGAGACTGCCGGTGACAAACCGGAGGAAGGTGTGGATGACGTCAAGTCAGCATGCCCCATACGCCTTGGGCTACACACGTACTACAATGCTTCGGACAAAGGGCAGCCAGACCGCGAGGTTGAGCCAATCCCATAAACCGAGGCACAGTTCAGATTGCAGGCTGCAACTCGCCTGCATGAAGGCGGAATCGCTAGTAATCGCAGGTCAGCATACTGCGGTGAATACGTTCCCGGGCCTTGTACACACCGCCCGTCACACCATGGGAGTTGGTCATGCCCGAAGTCGTTACTCCAACCGTTCGCGGAGGAGGACGCCGAAGGTGGGGCCGATGACTGGGGTGAA",
     "warnings": "None"
   },
   {
-    "cyID": "",
-    "cyTaxID": "",
+    "cyID": "CY-NCBI-KF246502.1",
+    "cyTaxID": "CY-NCBI-KF246502.1#g__Leptolyngbya.s__sp.str__CENA538",
     "dataSource": "NCBI",
     "dataSourceLink": "https://www.ncbi.nlm.nih.gov/nuccore/KF246502",
     "id": "627",
@@ -8666,8 +8666,8 @@
     "warnings": "None"
   },
   {
-    "cyID": "",
-    "cyTaxID": "",
+    "cyID": "CY-NCBI-KF246504.1",
+    "cyTaxID": "CY-NCBI-KF246504.1#g__Leptolyngbya.s__sp.str__CENA540",
     "dataSource": "NCBI",
     "dataSourceLink": "https://www.ncbi.nlm.nih.gov/nuccore/KF246504",
     "id": "628",
@@ -8680,8 +8680,8 @@
     "warnings": "None"
   },
   {
-    "cyID": "",
-    "cyTaxID": "",
+    "cyID": "CY-NCBI-EF545607.1",
+    "cyTaxID": "CY-NCBI-EF545607.1#g__Leptolyngbya.s__sp.str__CR-17M",
     "dataSource": "NCBI",
     "dataSourceLink": "https://www.ncbi.nlm.nih.gov/nuccore/EF545607",
     "id": "629",
@@ -8694,8 +8694,8 @@
     "warnings": "None"
   },
   {
-    "cyID": "",
-    "cyTaxID": "",
+    "cyID": "CY-NCBI-KC217545.1",
+    "cyTaxID": "CY-NCBI-KC217545.1#g__Leptolyngbya.s__sp.str__CY-013",
     "dataSource": "NCBI",
     "dataSourceLink": "https://www.ncbi.nlm.nih.gov/nuccore/KC217545",
     "id": "630",
@@ -8708,8 +8708,8 @@
     "warnings": "None"
   },
   {
-    "cyID": "",
-    "cyTaxID": "",
+    "cyID": "CY-NCBI-JQ687334.1",
+    "cyTaxID": "CY-NCBI-JQ687334.1#g__Leptolyngbya.s__sp.str__CYN68",
     "dataSource": "NCBI",
     "dataSourceLink": "https://www.ncbi.nlm.nih.gov/nuccore/JQ687334",
     "id": "631",
@@ -8722,8 +8722,8 @@
     "warnings": "None"
   },
   {
-    "cyID": "",
-    "cyTaxID": "",
+    "cyID": "CY-NCBI-JF925322.1",
+    "cyTaxID": "CY-NCBI-JF925322.1#g__Leptolyngbya.s__sp.str__CYN83",
     "dataSource": "NCBI",
     "dataSourceLink": "https://www.ncbi.nlm.nih.gov/nuccore/JF925322",
     "id": "632",
@@ -8736,8 +8736,8 @@
     "warnings": "None"
   },
   {
-    "cyID": "",
-    "cyTaxID": "",
+    "cyID": "CY-NCBI-KJ654308.1",
+    "cyTaxID": "CY-NCBI-KJ654308.1#g__Leptolyngbya.s__sp.str__D1C10",
     "dataSource": "NCBI",
     "dataSourceLink": "https://www.ncbi.nlm.nih.gov/nuccore/KJ654308",
     "id": "633",
@@ -8750,8 +8750,8 @@
     "warnings": "None"
   },
   {
-    "cyID": "",
-    "cyTaxID": "",
+    "cyID": "CY-NCBI-KJ654309.1",
+    "cyTaxID": "CY-NCBI-KJ654309.1#g__Leptolyngbya.s__sp.str__D2C8",
     "dataSource": "NCBI",
     "dataSourceLink": "https://www.ncbi.nlm.nih.gov/nuccore/KJ654309",
     "id": "634",
@@ -8764,8 +8764,8 @@
     "warnings": "None"
   },
   {
-    "cyID": "",
-    "cyTaxID": "",
+    "cyID": "CY-NCBI-KT753316.1",
+    "cyTaxID": "CY-NCBI-KT753316.1#g__Leptolyngbya.s__sp.str__Doroninskoye",
     "dataSource": "NCBI",
     "dataSourceLink": "https://www.ncbi.nlm.nih.gov/nuccore/KT753316",
     "id": "635",
