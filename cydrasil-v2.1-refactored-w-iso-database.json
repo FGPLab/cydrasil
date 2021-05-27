@@ -8820,8 +8820,8 @@
     "warnings": "None"
   },
   {
-    "cyID": "",
-    "cyTaxID": "",
+    "cyID": "CY-NCBI-DQ431002.1",
+    "cyTaxID": "CY-NCBI-DQ431002.1#g__Leptolyngbya.s__sp.str__Greenland-7",
     "dataSource": "NCBI",
     "dataSourceLink": "https://www.ncbi.nlm.nih.gov/nuccore/DQ431002",
     "id": "639",
