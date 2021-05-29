@@ -1,0 +1,60 @@
+# ssu-merge :: merge SSU rRNA alignments
+# SSU-ALIGN 0.1.1 (Feb 2016)
+# Copyright (C) 2016 Howard Hughes Medical Institute
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# command: ssu-merge cydrasil-3-ssu-align
+# date:    Fri May 28 21:25:13 2021
+#
+# Merging files from 6 ssu-align runs...
+#
+#                                                  # files     # seqs
+# merged file name                       CM name    merged     merged
+# -------------------------------------  --------  -------  ---------
+  cydrasil-3-ssu-align.tab               -               6          -
+  cydrasil-3-ssu-align.scores            -               6          -
+  cydrasil-3-ssu-align.ssu-align.sum     -               6          -
+  cydrasil-3-ssu-align.ssu-align.log     -               6          -
+#
+  cydrasil-3-ssu-align.bacteria.fa       bacteria        6       1334
+  cydrasil-3-ssu-align.bacteria.hitlist  bacteria        6       1334
+  cydrasil-3-ssu-align.bacteria.cmalign  bacteria        6       1334
+  cydrasil-3-ssu-align.bacteria.ifile    bacteria        6       1334
+  cydrasil-3-ssu-align.bacteria.stk      bacteria        6       1334
+#
+#
+# Summary statistics:
+#
+# model or       number  fraction        average   average               
+# category      of seqs  of total         length  coverage    nucleotides
+# ------------  -------  --------  -------------  --------  -------------
+  *input*          1334    1.0000        1411.37    1.0000        1882768
+#
+  archaea             0    0.0000              -         -              0
+  bacteria         1334    1.0000        1408.82    0.9982        1879361
+  eukarya             0    0.0000              -         -              0
+#
+  *all-models*     1334    1.0000        1408.82    0.9982        1879361
+  *no-models*         0    0.0000              -         -              0
+#
+# Speed statistics:
+#
+# stage      num seqs  seq/sec  seq/sec/model    nucleotides    nt/sec
+# ---------  --------  -------  -------------  -------------  --------
+  search         1334  1334.000        444.667        1882768  1882768.0
+  alignment      1334  1334.000       1334.000        1879361  1879361.0
+#
+# Summed ssu-align CPU time (search):     00:00:00.00  (hh:mm:ss)
+# Summed ssu-align CPU time (alignment):  00:00:00.00  (hh:mm:ss)
+# Summed ssu-align CPU time (total):      00:00:00.00  (hh:mm:ss)
+#
+# Cleaning up by removing original files that were just merged ... done.
+#
+# List of executed commands saved in:     cydrasil-3-ssu-align.ssu-merge.log.
+# Output printed to the screen saved in:  cydrasil-3-ssu-align.ssu-merge.sum.
+#
+# All output files created in directory ./cydrasil-3-ssu-align/
+#
+# CPU time:  00:00:01.43  (hh:mm:ss)
+# 
+# SSU-ALIGN-SUCCESS

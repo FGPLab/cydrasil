@@ -1,0 +1,41 @@
+# ssu-prep :: prepare SSU rRNA sequences for parallel ssu-align jobs
+# SSU-ALIGN 0.1.1 (Feb 2016)
+# Copyright (C) 2016 Howard Hughes Medical Institute
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# command: ssu-prep -x cydrasil-v3-sequence-list.fasta cydrasil-3-ssu-align 6
+# date:    Fri May 28 21:22:25 2021
+#
+# Validating input sequence file ... done.
+#
+# Preparing 6 ssu-align jobs ...
+# Partitioning seqs with goal of equalizing total number of nucleotides per job ...
+#
+# output file name                   description                                          
+# ---------------------------------  -----------------------------------------------------
+  cydrasil-3-ssu-align/cydrasil-v3-sequence-list.fasta.1  partition 1 FASTA sequence file (218 seqs; 313862 nt)
+  cydrasil-3-ssu-align/cydrasil-v3-sequence-list.fasta.2  partition 2 FASTA sequence file (222 seqs; 314309 nt)
+  cydrasil-3-ssu-align/cydrasil-v3-sequence-list.fasta.3  partition 3 FASTA sequence file (224 seqs; 314915 nt)
+  cydrasil-3-ssu-align/cydrasil-v3-sequence-list.fasta.4  partition 4 FASTA sequence file (223 seqs; 313342 nt)
+  cydrasil-3-ssu-align/cydrasil-v3-sequence-list.fasta.5  partition 5 FASTA sequence file (219 seqs; 313540 nt)
+  cydrasil-3-ssu-align/cydrasil-v3-sequence-list.fasta.6  partition 6 FASTA sequence file (228 seqs; 312800 nt)
+  cydrasil-3-ssu-align.ssu-align.sh  shell script that will execute 6 ssu-align jobs
+#
+################################################################################
+# To execute all 6 ssu-align jobs, run the shell script with the command:
+#	"cydrasil-3-ssu-align.ssu-align.sh"
+# (it is an executable file)
+################################################################################
+#
+# The final job will merge the output from all jobs once they are all finished.
+#
+# If one or more jobs fail: rerun the failed jobs, wait for them to finish,
+# and then perform manual merge from this directory by executing:
+#	ssu-merge cydrasil-3-ssu-align
+#
+# List of executed commands saved in:     cydrasil-3-ssu-align/cydrasil-3-ssu-align.ssu-prep.log.
+# Output printed to the screen saved in:  cydrasil-3-ssu-align/cydrasil-3-ssu-align.ssu-prep.sum.
+#
+# CPU time:  00:00:00.44  (hh:mm:ss)
+# 
+# SSU-ALIGN-SUCCESS
