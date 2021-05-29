@@ -1,0 +1,54 @@
+
+RAxML-NG v. 1.0.2 released on 22.02.2021 by The Exelixis Lab.
+Developed by: Alexey M. Kozlov and Alexandros Stamatakis.
+Contributors: Diego Darriba, Tomas Flouri, Benoit Morel, Sarah Lutteropp, Ben Bettisworth.
+Latest version: https://github.com/amkozlov/raxml-ng
+Questions/problems/suggestions? Please visit: https://groups.google.com/forum/#!forum/raxml
+
+System: Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz, 4 cores, 12 GB RAM
+
+RAxML-NG was called at 28-May-2021 22:09:38 as follows:
+
+raxml-ng --msa Cydrasil-v3-aln-mask.afa --model GTR+G
+
+Analysis options:
+  run mode: ML tree search
+  start tree(s): random (10) + parsimony (10)
+  random seed: 1622264978
+  tip-inner: OFF
+  pattern compression: ON
+  per-rate scalers: OFF
+  site repeats: ON
+  fast spr radius: AUTO
+  spr subtree cutoff: 1.000000
+  branch lengths: proportional (ML estimate, algorithm: NR-FAST)
+  SIMD kernels: AVX2
+  parallelization: coarse-grained (auto), PTHREADS (auto)
+
+[00:00:00] Reading alignment from file: Cydrasil-v3-aln-mask.afa
+[00:00:00] Loaded alignment with 1327 taxa and 1452 sites
+
+Alignment comprises 1 partitions and 1347 patterns
+
+Partition 0: noname
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1452 / 1347
+Gaps: 5.94 %
+Invariant sites: 15.01 %
+
+
+NOTE: Binary MSA file created: Cydrasil-v3-aln-mask.afa.raxml.rba
+
+Parallelization scheme autoconfig: 4 worker(s) x 1 thread(s)
+
+Parallel reduction/worker buffer size: 1 KB  / 0 KB
+
+[00:00:00] Generating 10 random starting tree(s) with 1327 taxa
+[00:00:00] Generating 10 parsimony starting tree(s) with 1327 taxa
+[00:00:05] Data distribution: max. partitions/sites/weight per thread: 1 / 1347 / 21552
+[00:00:05] Data distribution: max. searches per worker: 5
+
+Starting ML tree search with 20 distinct starting trees
+
+[00:00:05 -485757.668363] Initial branch length optimization
+[00:00:06 -430696.881613] Model parameter optimization (eps = 10.000000)

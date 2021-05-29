@@ -1,0 +1,99 @@
+# ssu-mask :: mask SSU rRNA alignments
+# SSU-ALIGN 0.1.1 (Feb 2016)
+# Copyright (C) 2016 Howard Hughes Medical Institute
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# command: ssu-mask cydrasil-3-ssu-align
+# date:    Fri May 28 22:07:36 2021
+
+Printing global hask key as read from ssu.pm:
+
+Global hash key: DF_ALIMASK_PFRACT    value: 0.95
+Global hash key: DF_ALIMASK_PTHRESH   value: 0.95
+Global hash key: DF_CMALIGN_OPTS      value:  --no-null3 --sub 
+Global hash key: DF_CMBUILD_GAPTHRESH value: 0.8
+Global hash key: DF_CMSEARCH_ALG_FLAG value:  --viterbi
+Global hash key: DF_CMSEARCH_OPTS     value:  --hmm-cW 1.5 --no-null3 --noalign 
+Global hash key: DF_CMSEARCH_T        value: -1
+Global hash key: DF_CM_FILE           value: /usr/local/share/ssu-align-0.1.1/ssu-align-0p1.cm
+Global hash key: DF_MASK_FILE         value: /usr/local/share/ssu-align-0.1.1/ssu-align-0p1.mask
+Global hash key: DF_MERGE_INIT_WAIT_SECS value: 3
+Global hash key: DF_MINBIT            value: 50
+Global hash key: DF_MINLEN            value: 1
+Global hash key: DF_MXSIZE            value: 4096
+Global hash key: DF_NO_NAME           value: <NONE>
+Global hash key: DF_TEMPLATE_FILE     value: /usr/local/share/ssu-align-0.1.1/ssu-align-0p1.ps
+Global hash key: VERSION              value: 0.1
+Global hash key: VERSION_PSTR         value: 0p1
+Global hash key: cmalign              value: ssu-cmalign
+Global hash key: cmbuild              value: ssu-cmbuild
+Global hash key: cmsearch             value: ssu-cmsearch
+Global hash key: esl-alimanip         value: ssu-esl-alimanip
+Global hash key: esl-alimask          value: ssu-esl-alimask
+Global hash key: esl-alimerge         value: ssu-esl-alimerge
+Global hash key: esl-alistat          value: ssu-esl-alistat
+Global hash key: esl-reformat         value: ssu-esl-reformat
+Global hash key: esl-seqstat          value: ssu-esl-seqstat
+Global hash key: esl-sfetch           value: ssu-esl-sfetch
+Global hash key: esl-ssdraw           value: ssu-esl-ssdraw
+Global hash key: esl-weight           value: ssu-esl-weight
+Global hash key: ps2pdf               value: ps2pdf
+Global hash key: ssu-align            value: ssu-align
+Global hash key: ssu-merge            value: ssu-merge
+
+Executing:      ssu-esl-alimask -h > /dev/null  2> cydrasil-3-ssu-align/ssutmp0erraa3990
+Returned:       0
+Output (STDOUT) sent to /dev/null.
+Output (STDERR): ***NONE***
+
+About to remove file (cydrasil-3-ssu-align/ssutmp0erraa3990) with perl's unlink function ... done.
+
+Executing:      ssu-esl-alimanip -h > /dev/null  2> cydrasil-3-ssu-align/ssutmp1erraa3990
+Returned:       0
+Output (STDOUT) sent to /dev/null.
+Output (STDERR): ***NONE***
+
+About to remove file (cydrasil-3-ssu-align/ssutmp1erraa3990) with perl's unlink function ... done.
+
+Executing:      ssu-esl-ssdraw -h > /dev/null  2> cydrasil-3-ssu-align/ssutmp2erraa3990
+Returned:       0
+Output (STDOUT) sent to /dev/null.
+Output (STDERR): ***NONE***
+
+About to remove file (cydrasil-3-ssu-align/ssutmp2erraa3990) with perl's unlink function ... done.
+
+Executing:      ssu-esl-alimask --rna --small -p --pfract 0.95 --pthresh 0.95 --fmask-rf cydrasil-3-ssu-align/cydrasil-3-ssu-align.bacteria.mask -o cydrasil-3-ssu-align/cydrasil-3-ssu-align.bacteria.mask.stk cydrasil-3-ssu-align/cydrasil-3-ssu-align.bacteria.stk > cydrasil-3-ssu-align.bacteria.alimask  2> cydrasil-3-ssu-align/ssutmp3erraa3990
+Returned:       0
+Output (STDOUT) saved in file cydrasil-3-ssu-align.bacteria.alimask.
+Output (STDERR): ***NONE***
+
+About to remove file (cydrasil-3-ssu-align/ssutmp3erraa3990) with perl's unlink function ... done.
+
+Executing:      ssu-esl-ssdraw --mask-col --mask cydrasil-3-ssu-align/cydrasil-3-ssu-align.bacteria.mask --small /usr/local/share/ssu-align-0.1.1/bacteria-0p1.stk /usr/local/share/ssu-align-0.1.1/ssu-align-0p1.ps cydrasil-3-ssu-align/cydrasil-3-ssu-align.bacteria.mask.ps > cydrasil-3-ssu-align/ssutmp4outaa3990  2> cydrasil-3-ssu-align/ssutmp4erraa3990
+Returned:       0
+Output (STDOUT): 
+# 1 page postscript saved to file cydrasil-3-ssu-align/cydrasil-3-ssu-align.bacteria.mask.ps.
+
+Output (STDERR): ***NONE***
+
+About to remove file (cydrasil-3-ssu-align/ssutmp4outaa3990) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/ssutmp4erraa3990) with perl's unlink function ... done.
+
+Executing:      ps2pdf cydrasil-3-ssu-align/cydrasil-3-ssu-align.bacteria.mask.ps cydrasil-3-ssu-align/cydrasil-3-ssu-align.bacteria.mask.pdf > cydrasil-3-ssu-align/ssutmp5outaa3990  2> cydrasil-3-ssu-align/ssutmp5erraa3990
+Returned:       127
+Output (STDOUT): ***NONE***
+Output (STDERR): 
+sh: 1: ps2pdf: not found
+
+
+ERROR, the command ("ps2pdf cydrasil-3-ssu-align/cydrasil-3-ssu-align.bacteria.mask.ps cydrasil-3-ssu-align/cydrasil-3-ssu-align.bacteria.mask.pdf > cydrasil-3-ssu-align/ssutmp5outaa3990  2> cydrasil-3-ssu-align/ssutmp5erraa3990") unexpectedly returned non-zero exit status: 127.
+About to remove file (cydrasil-3-ssu-align/ssutmp5outaa3990) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/ssutmp5erraa3990) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align.bacteria.alimask) with perl's unlink function ... done.
+
+Fri May 28 22:07:36 MST 2021
+Linux Wednesday 4.19.84-microsoft-standard #1 SMP Wed Nov 13 11:44:37 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+# SSU-ALIGN-SUCCESS

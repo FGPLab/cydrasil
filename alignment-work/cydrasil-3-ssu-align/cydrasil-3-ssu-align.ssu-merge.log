@@ -1,0 +1,245 @@
+# ssu-merge :: merge SSU rRNA alignments
+# SSU-ALIGN 0.1.1 (Feb 2016)
+# Copyright (C) 2016 Howard Hughes Medical Institute
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# command: ssu-merge cydrasil-3-ssu-align
+# date:    Fri May 28 22:07:17 2021
+
+Printing global hask key as read from ssu.pm:
+
+Global hash key: DF_ALIMASK_PFRACT    value: 0.95
+Global hash key: DF_ALIMASK_PTHRESH   value: 0.95
+Global hash key: DF_CMALIGN_OPTS      value:  --no-null3 --sub 
+Global hash key: DF_CMBUILD_GAPTHRESH value: 0.8
+Global hash key: DF_CMSEARCH_ALG_FLAG value:  --viterbi
+Global hash key: DF_CMSEARCH_OPTS     value:  --hmm-cW 1.5 --no-null3 --noalign 
+Global hash key: DF_CMSEARCH_T        value: -1
+Global hash key: DF_CM_FILE           value: /usr/local/share/ssu-align-0.1.1/ssu-align-0p1.cm
+Global hash key: DF_MASK_FILE         value: /usr/local/share/ssu-align-0.1.1/ssu-align-0p1.mask
+Global hash key: DF_MERGE_INIT_WAIT_SECS value: 3
+Global hash key: DF_MINBIT            value: 50
+Global hash key: DF_MINLEN            value: 1
+Global hash key: DF_MXSIZE            value: 4096
+Global hash key: DF_NO_NAME           value: <NONE>
+Global hash key: DF_TEMPLATE_FILE     value: /usr/local/share/ssu-align-0.1.1/ssu-align-0p1.ps
+Global hash key: VERSION              value: 0.1
+Global hash key: VERSION_PSTR         value: 0p1
+Global hash key: cmalign              value: ssu-cmalign
+Global hash key: cmbuild              value: ssu-cmbuild
+Global hash key: cmsearch             value: ssu-cmsearch
+Global hash key: esl-alimanip         value: ssu-esl-alimanip
+Global hash key: esl-alimask          value: ssu-esl-alimask
+Global hash key: esl-alimerge         value: ssu-esl-alimerge
+Global hash key: esl-alistat          value: ssu-esl-alistat
+Global hash key: esl-reformat         value: ssu-esl-reformat
+Global hash key: esl-seqstat          value: ssu-esl-seqstat
+Global hash key: esl-sfetch           value: ssu-esl-sfetch
+Global hash key: esl-ssdraw           value: ssu-esl-ssdraw
+Global hash key: esl-weight           value: ssu-esl-weight
+Global hash key: ps2pdf               value: ps2pdf
+Global hash key: ssu-align            value: ssu-align
+Global hash key: ssu-merge            value: ssu-merge
+
+Executing:      ssu-esl-alimerge -h > /dev/null  2> cydrasil-3-ssu-align/ssutmp0erraa3965
+Returned:       0
+Output (STDOUT) sent to /dev/null.
+Output (STDERR): ***NONE***
+
+About to remove file (cydrasil-3-ssu-align/ssutmp0erraa3965) with perl's unlink function ... done.
+
+Executing:      cat cydrasil-3-ssu-align/cydrasil-3-ssu-align.1/cydrasil-3-ssu-align.1.tab cydrasil-3-ssu-align/cydrasil-3-ssu-align.2/cydrasil-3-ssu-align.2.tab cydrasil-3-ssu-align/cydrasil-3-ssu-align.3/cydrasil-3-ssu-align.3.tab cydrasil-3-ssu-align/cydrasil-3-ssu-align.4/cydrasil-3-ssu-align.4.tab cydrasil-3-ssu-align/cydrasil-3-ssu-align.5/cydrasil-3-ssu-align.5.tab cydrasil-3-ssu-align/cydrasil-3-ssu-align.6/cydrasil-3-ssu-align.6.tab > cydrasil-3-ssu-align/cydrasil-3-ssu-align.tab  2> cydrasil-3-ssu-align/ssutmp1erraa3965
+Returned:       0
+Output (STDOUT) saved in file cydrasil-3-ssu-align/cydrasil-3-ssu-align.tab.
+Output (STDERR): ***NONE***
+
+About to remove file (cydrasil-3-ssu-align/ssutmp1erraa3965) with perl's unlink function ... done.
+
+Executing:      cat cydrasil-3-ssu-align/cydrasil-3-ssu-align.1/cydrasil-3-ssu-align.1.scores cydrasil-3-ssu-align/cydrasil-3-ssu-align.2/cydrasil-3-ssu-align.2.scores cydrasil-3-ssu-align/cydrasil-3-ssu-align.3/cydrasil-3-ssu-align.3.scores cydrasil-3-ssu-align/cydrasil-3-ssu-align.4/cydrasil-3-ssu-align.4.scores cydrasil-3-ssu-align/cydrasil-3-ssu-align.5/cydrasil-3-ssu-align.5.scores cydrasil-3-ssu-align/cydrasil-3-ssu-align.6/cydrasil-3-ssu-align.6.scores > cydrasil-3-ssu-align/cydrasil-3-ssu-align.scores  2> cydrasil-3-ssu-align/ssutmp2erraa3965
+Returned:       0
+Output (STDOUT) saved in file cydrasil-3-ssu-align/cydrasil-3-ssu-align.scores.
+Output (STDERR): ***NONE***
+
+About to remove file (cydrasil-3-ssu-align/ssutmp2erraa3965) with perl's unlink function ... done.
+
+Executing:      cat cydrasil-3-ssu-align/cydrasil-3-ssu-align.1/cydrasil-3-ssu-align.1.ssu-align.log cydrasil-3-ssu-align/cydrasil-3-ssu-align.2/cydrasil-3-ssu-align.2.ssu-align.log cydrasil-3-ssu-align/cydrasil-3-ssu-align.3/cydrasil-3-ssu-align.3.ssu-align.log cydrasil-3-ssu-align/cydrasil-3-ssu-align.4/cydrasil-3-ssu-align.4.ssu-align.log cydrasil-3-ssu-align/cydrasil-3-ssu-align.5/cydrasil-3-ssu-align.5.ssu-align.log cydrasil-3-ssu-align/cydrasil-3-ssu-align.6/cydrasil-3-ssu-align.6.ssu-align.log > cydrasil-3-ssu-align/cydrasil-3-ssu-align.ssu-align.log  2> cydrasil-3-ssu-align/ssutmp3erraa3965
+Returned:       0
+Output (STDOUT) saved in file cydrasil-3-ssu-align/cydrasil-3-ssu-align.ssu-align.log.
+Output (STDERR): ***NONE***
+
+About to remove file (cydrasil-3-ssu-align/ssutmp3erraa3965) with perl's unlink function ... done.
+
+Executing:      cat cydrasil-3-ssu-align/cydrasil-3-ssu-align.1/cydrasil-3-ssu-align.1.bacteria.fa cydrasil-3-ssu-align/cydrasil-3-ssu-align.2/cydrasil-3-ssu-align.2.bacteria.fa cydrasil-3-ssu-align/cydrasil-3-ssu-align.3/cydrasil-3-ssu-align.3.bacteria.fa cydrasil-3-ssu-align/cydrasil-3-ssu-align.4/cydrasil-3-ssu-align.4.bacteria.fa cydrasil-3-ssu-align/cydrasil-3-ssu-align.5/cydrasil-3-ssu-align.5.bacteria.fa cydrasil-3-ssu-align/cydrasil-3-ssu-align.6/cydrasil-3-ssu-align.6.bacteria.fa > cydrasil-3-ssu-align/cydrasil-3-ssu-align.bacteria.fa  2> cydrasil-3-ssu-align/ssutmp4erraa3965
+Returned:       0
+Output (STDOUT) saved in file cydrasil-3-ssu-align/cydrasil-3-ssu-align.bacteria.fa.
+Output (STDERR): ***NONE***
+
+About to remove file (cydrasil-3-ssu-align/ssutmp4erraa3965) with perl's unlink function ... done.
+
+Executing:      cat cydrasil-3-ssu-align/cydrasil-3-ssu-align.1/cydrasil-3-ssu-align.1.bacteria.hitlist cydrasil-3-ssu-align/cydrasil-3-ssu-align.2/cydrasil-3-ssu-align.2.bacteria.hitlist cydrasil-3-ssu-align/cydrasil-3-ssu-align.3/cydrasil-3-ssu-align.3.bacteria.hitlist cydrasil-3-ssu-align/cydrasil-3-ssu-align.4/cydrasil-3-ssu-align.4.bacteria.hitlist cydrasil-3-ssu-align/cydrasil-3-ssu-align.5/cydrasil-3-ssu-align.5.bacteria.hitlist cydrasil-3-ssu-align/cydrasil-3-ssu-align.6/cydrasil-3-ssu-align.6.bacteria.hitlist > cydrasil-3-ssu-align/cydrasil-3-ssu-align.bacteria.hitlist  2> cydrasil-3-ssu-align/ssutmp5erraa3965
+Returned:       0
+Output (STDOUT) saved in file cydrasil-3-ssu-align/cydrasil-3-ssu-align.bacteria.hitlist.
+Output (STDERR): ***NONE***
+
+About to remove file (cydrasil-3-ssu-align/ssutmp5erraa3965) with perl's unlink function ... done.
+
+Executing:      ssu-esl-alimerge --small --outformat pfam --rna --list -v -o cydrasil-3-ssu-align/cydrasil-3-ssu-align.bacteria.stk cydrasil-3-ssu-align/bacteria.merge.list > cydrasil-3-ssu-align/cydrasil-3-ssu-align.bacteria.alimerge  2> cydrasil-3-ssu-align/ssutmp6erraa3965
+Returned:       0
+Output (STDOUT) saved in file cydrasil-3-ssu-align/cydrasil-3-ssu-align.bacteria.alimerge.
+Output (STDERR): ***NONE***
+
+About to remove file (cydrasil-3-ssu-align/ssutmp6erraa3965) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/bacteria.merge.list) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-3-ssu-align.bacteria.alimerge) with perl's unlink function ... done.
+
+Executing:      cat cydrasil-3-ssu-align/cydrasil-3-ssu-align.1/cydrasil-3-ssu-align.1.bacteria.cmalign cydrasil-3-ssu-align/cydrasil-3-ssu-align.2/cydrasil-3-ssu-align.2.bacteria.cmalign cydrasil-3-ssu-align/cydrasil-3-ssu-align.3/cydrasil-3-ssu-align.3.bacteria.cmalign cydrasil-3-ssu-align/cydrasil-3-ssu-align.4/cydrasil-3-ssu-align.4.bacteria.cmalign cydrasil-3-ssu-align/cydrasil-3-ssu-align.5/cydrasil-3-ssu-align.5.bacteria.cmalign cydrasil-3-ssu-align/cydrasil-3-ssu-align.6/cydrasil-3-ssu-align.6.bacteria.cmalign > cydrasil-3-ssu-align/cydrasil-3-ssu-align.bacteria.cmalign  2> cydrasil-3-ssu-align/ssutmp7erraa3965
+Returned:       0
+Output (STDOUT) saved in file cydrasil-3-ssu-align/cydrasil-3-ssu-align.bacteria.cmalign.
+Output (STDERR): ***NONE***
+
+About to remove file (cydrasil-3-ssu-align/ssutmp7erraa3965) with perl's unlink function ... done.
+
+Executing:      cat cydrasil-3-ssu-align/cydrasil-3-ssu-align.1/cydrasil-3-ssu-align.1.bacteria.ifile cydrasil-3-ssu-align/cydrasil-3-ssu-align.2/cydrasil-3-ssu-align.2.bacteria.ifile cydrasil-3-ssu-align/cydrasil-3-ssu-align.3/cydrasil-3-ssu-align.3.bacteria.ifile cydrasil-3-ssu-align/cydrasil-3-ssu-align.4/cydrasil-3-ssu-align.4.bacteria.ifile cydrasil-3-ssu-align/cydrasil-3-ssu-align.5/cydrasil-3-ssu-align.5.bacteria.ifile cydrasil-3-ssu-align/cydrasil-3-ssu-align.6/cydrasil-3-ssu-align.6.bacteria.ifile > cydrasil-3-ssu-align/cydrasil-3-ssu-align.bacteria.ifile  2> cydrasil-3-ssu-align/ssutmp8erraa3965
+Returned:       0
+Output (STDOUT) saved in file cydrasil-3-ssu-align/cydrasil-3-ssu-align.bacteria.ifile.
+Output (STDERR): ***NONE***
+
+About to remove file (cydrasil-3-ssu-align/ssutmp8erraa3965) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-3-ssu-align.1/cydrasil-3-ssu-align.1.scores) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-3-ssu-align.2/cydrasil-3-ssu-align.2.scores) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-3-ssu-align.3/cydrasil-3-ssu-align.3.scores) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-3-ssu-align.4/cydrasil-3-ssu-align.4.scores) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-3-ssu-align.5/cydrasil-3-ssu-align.5.scores) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-3-ssu-align.6/cydrasil-3-ssu-align.6.scores) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-3-ssu-align.1/cydrasil-3-ssu-align.1.ssu-align.sum) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-3-ssu-align.2/cydrasil-3-ssu-align.2.ssu-align.sum) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-3-ssu-align.3/cydrasil-3-ssu-align.3.ssu-align.sum) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-3-ssu-align.4/cydrasil-3-ssu-align.4.ssu-align.sum) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-3-ssu-align.5/cydrasil-3-ssu-align.5.ssu-align.sum) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-3-ssu-align.6/cydrasil-3-ssu-align.6.ssu-align.sum) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-3-ssu-align.1/cydrasil-3-ssu-align.1.ssu-align.log) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-3-ssu-align.2/cydrasil-3-ssu-align.2.ssu-align.log) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-3-ssu-align.3/cydrasil-3-ssu-align.3.ssu-align.log) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-3-ssu-align.4/cydrasil-3-ssu-align.4.ssu-align.log) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-3-ssu-align.5/cydrasil-3-ssu-align.5.ssu-align.log) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-3-ssu-align.6/cydrasil-3-ssu-align.6.ssu-align.log) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-3-ssu-align.1/cydrasil-3-ssu-align.1.tab) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-3-ssu-align.2/cydrasil-3-ssu-align.2.tab) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-3-ssu-align.3/cydrasil-3-ssu-align.3.tab) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-3-ssu-align.4/cydrasil-3-ssu-align.4.tab) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-3-ssu-align.5/cydrasil-3-ssu-align.5.tab) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-3-ssu-align.6/cydrasil-3-ssu-align.6.tab) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-3-ssu-align.1/cydrasil-3-ssu-align.1.bacteria.cmalign) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-3-ssu-align.2/cydrasil-3-ssu-align.2.bacteria.cmalign) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-3-ssu-align.3/cydrasil-3-ssu-align.3.bacteria.cmalign) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-3-ssu-align.4/cydrasil-3-ssu-align.4.bacteria.cmalign) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-3-ssu-align.5/cydrasil-3-ssu-align.5.bacteria.cmalign) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-3-ssu-align.6/cydrasil-3-ssu-align.6.bacteria.cmalign) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-3-ssu-align.1/cydrasil-3-ssu-align.1.bacteria.fa) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-3-ssu-align.2/cydrasil-3-ssu-align.2.bacteria.fa) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-3-ssu-align.3/cydrasil-3-ssu-align.3.bacteria.fa) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-3-ssu-align.4/cydrasil-3-ssu-align.4.bacteria.fa) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-3-ssu-align.5/cydrasil-3-ssu-align.5.bacteria.fa) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-3-ssu-align.6/cydrasil-3-ssu-align.6.bacteria.fa) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-3-ssu-align.1/cydrasil-3-ssu-align.1.bacteria.hitlist) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-3-ssu-align.2/cydrasil-3-ssu-align.2.bacteria.hitlist) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-3-ssu-align.3/cydrasil-3-ssu-align.3.bacteria.hitlist) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-3-ssu-align.4/cydrasil-3-ssu-align.4.bacteria.hitlist) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-3-ssu-align.5/cydrasil-3-ssu-align.5.bacteria.hitlist) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-3-ssu-align.6/cydrasil-3-ssu-align.6.bacteria.hitlist) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-3-ssu-align.1/cydrasil-3-ssu-align.1.bacteria.stk) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-3-ssu-align.2/cydrasil-3-ssu-align.2.bacteria.stk) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-3-ssu-align.3/cydrasil-3-ssu-align.3.bacteria.stk) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-3-ssu-align.4/cydrasil-3-ssu-align.4.bacteria.stk) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-3-ssu-align.5/cydrasil-3-ssu-align.5.bacteria.stk) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-3-ssu-align.6/cydrasil-3-ssu-align.6.bacteria.stk) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-3-ssu-align.1/cydrasil-3-ssu-align.1.bacteria.ifile) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-3-ssu-align.2/cydrasil-3-ssu-align.2.bacteria.ifile) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-3-ssu-align.3/cydrasil-3-ssu-align.3.bacteria.ifile) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-3-ssu-align.4/cydrasil-3-ssu-align.4.bacteria.ifile) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-3-ssu-align.5/cydrasil-3-ssu-align.5.bacteria.ifile) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-3-ssu-align.6/cydrasil-3-ssu-align.6.bacteria.ifile) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-v3-sequence-list.fasta.1) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-v3-sequence-list.fasta.2) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-v3-sequence-list.fasta.3) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-v3-sequence-list.fasta.4) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-v3-sequence-list.fasta.5) with perl's unlink function ... done.
+
+About to remove file (cydrasil-3-ssu-align/cydrasil-v3-sequence-list.fasta.6) with perl's unlink function ... done.
+
+About to remove presumed empty directory (cydrasil-3-ssu-align/cydrasil-3-ssu-align.1) with perl's rmdir function ... done.
+
+About to remove presumed empty directory (cydrasil-3-ssu-align/cydrasil-3-ssu-align.2) with perl's rmdir function ... done.
+
+About to remove presumed empty directory (cydrasil-3-ssu-align/cydrasil-3-ssu-align.3) with perl's rmdir function ... done.
+
+About to remove presumed empty directory (cydrasil-3-ssu-align/cydrasil-3-ssu-align.4) with perl's rmdir function ... done.
+
+About to remove presumed empty directory (cydrasil-3-ssu-align/cydrasil-3-ssu-align.5) with perl's rmdir function ... done.
+
+About to remove presumed empty directory (cydrasil-3-ssu-align/cydrasil-3-ssu-align.6) with perl's rmdir function ... done.
+
+Fri May 28 22:07:19 MST 2021
+Linux Wednesday 4.19.84-microsoft-standard #1 SMP Wed Nov 13 11:44:37 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+# SSU-ALIGN-SUCCESS
