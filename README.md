@@ -2,7 +2,7 @@
 <img src="https://cydrasil-asset-hosting.s3-us-west-2.amazonaws.com/images/cydrasil-v-3-logo.png" alt="Cydrasil Logo" width="800"/>
 
 # A curated cyanobacterial 16S rRNA gene reference package for sequence placement and *de novo* phylogenetic analysis
-[![DOI](https://zenodo.org/badge/144063861.svg)](https://zenodo.org/badge/latestdoi/144063861)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4884981.svg)](https://doi.org/10.5281/zenodo.4884981)
 
 Daniel Roush, Ana Giraldo-Silva, and Ferran Garcia-Pichel
 
