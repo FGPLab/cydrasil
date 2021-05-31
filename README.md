@@ -4,45 +4,40 @@
 # A curated cyanobacterial 16S rRNA gene reference package for sequence placement and *de novo* phylogenetic analysis
 [![DOI](https://zenodo.org/badge/144063861.svg)](https://zenodo.org/badge/latestdoi/144063861)
 
-Daniel Roush, Ana Giraldo-Silva, Vanessa M. C. Fernandes, Nathali Maria Machado de Lima, Corey Nelson, Sam McClintock, Sergio Velasco Ayuso, Kevin Klicki, Blake Dirks, Watson Arantes, Kira Sorochkina, and Ferran Garcia-Pichel
+Daniel Roush, Ana Giraldo-Silva, and Ferran Garcia-Pichel
 
 <sup>1</sup>School of Life Sciences, Arizona State University, 85282 Tempe, Arizona, USA
 
 <sup>2</sup>Center for Fundamental and Applied Microbiomics, Biodesign Institute, Arizona State University, 85282 Tempe, Arizona, USA
 
-## **Interactive Reference Tree**
-
-[Cydrasil v2 on iTOL](https://itol.embl.de/tree/722012507563761591409018)
-
 ***
 ## **About Cydrasil**
 
-Cydrasil is a comprehensive, curated, and community-built cyanobacterial reference package containing over 1400 16S rRNA gene
+Cydrasil is a comprehensive, curated, and community-built cyanobacterial reference package containing over 1300 16S rRNA gene
 sequences with lengths exceeding 1100 base pairs. Cydrasil offers a curated alignment and a maximum-likelihood
 phylogenetic tree that can be used for sequence placement or <i>de novo</i> phylogenetic reconstructions.
 Cydrasil utilizes phylogenetic placement to give you a complete phylogenetic perspective of your new isolate or amplicon survey.
 
 ### **Current Stats:**
-| Total Sequences: | 1482 |
+| Total Sequences: | 1327 |
 |------------------|------|
-| Cyanobacteria:   | 1405 |
-| Sibling Clades:  | 68   |
-| Plastids:        | 6    |
-| Outgroup:        | 3    |
+| Cyanobacteria:   | 1288 |
+| Sibling Clades:  | 34   |
+| Plastids:        | 5    |
 
 ***
 ## **Package Contents**
 
 | File/Folder Name                          | Description                                                                                                                                                            |
 |-------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| cydrasil-v2-reference-sequence-list.fasta | FASTA file containing the entire Cydrasil reference sequence set used as input for phylogenetic analysis                                                               |
-| cydrasil-v2-database.json                 | JSON formatted database containing metadata about Cydrasil reference sequences. The file includes a link to the source repository and any warnings about the sequence. |
-| cydrasil-v2-reference-alignment.afa       | Aligned FASTA formatted version of the Cydrasil reference alignment.                                                                                                   |
-| cydrasil-v2-reference-alignment.phy       | Aligned relaxed PHYLIP formatted version of the Cydrasil reference alignment.                                                                                          |
-| alignment.bacteria.mask                   | SSU-Align mask file for use with the SSU-Align version of the pipeline                                                                                                 |
-| cydrasil-v2-reference-tree.nwk            | Newick formatted Cydrasil reference phylogenetic tree.                                                                                                                 |
-| cydrasil-v2.bestModel                     | File containing model parameters for the generation of the reference tree. Needed for the model parameter specification (--model) for EPA-ng.                          |
-| raxml-ng-evaluate-output/                 | Folder containing the output from running raxml-ng --evaluate on the reference tree (needed for model parameter specification in EPA-ng).                              |
+| cydrasil-v3-reference-sequence-list.fasta | FASTA file containing the entire Cydrasil reference sequence set used as input for phylogenetic analysis                                                               |
+| cydrasil-v3-database.json                 | JSON formatted database containing metadata about Cydrasil reference sequences. The file includes a link to the source repository and any warnings about the sequence. |
+| cydrasil-v3-database.tsv                  | TSV formatted database containing metadata about Cydrasil reference sequences. The file includes a link to the source repository and any warnings about the sequence.  |
+| cydrasil-v3-reference-alignment.afa       | Aligned FASTA formatted version of the Cydrasil reference alignment.                                                                                                   |
+| cydrasil-v3-reference-alignment.phy       | Aligned relaxed PHYLIP formatted version of the Cydrasil reference alignment.                                                                                          |
+| cydrasil-v3-ssu-align.bacteria.mask       | SSU-Align mask file for use with the SSU-Align version of the pipeline                                                                                                 |
+| cydrasil-v3-reference-tree.nwk            | Newick formatted Cydrasil reference phylogenetic tree.                                                                                                                 |
+| cydrasil-v3.bestModel                     | File containing model parameters for the generation of the reference tree. Needed for the model parameter specification (--model) for EPA-ng.                          |
 
 
 ***
@@ -83,15 +78,15 @@ The reference alignment was generated using [SSU-Align](http://eddylab.org/softw
     >##### **PaPaRa Arguments**
     >| Flag | Description                                                                                | Cydrasil Filename                   |
     >|------|--------------------------------------------------------------------------------------------|-------------------------------------|
-    >| -t   | Reference tree in newick (.nwk) format                                                     | cydrasil-v2-reference-tree.nwk      |
-    >| -s   | Reference alignment in phylip (.phy) format                                                | cydrasil-v2-reference-alignment.phy |
+    >| -t   | Reference tree in newick (.nwk) format                                                     | cydrasil-v3-reference-tree.nwk      |
+    >| -s   | Reference alignment in phylip (.phy) format                                                | cydrasil-v3-reference-alignment.phy |
     >| -q   | FASTA file containing sequences to be aligned (query sequences) to the reference alignment |                                     |
     >| -n   | Name of output alignment                                                                   |                                     |
     >| -r   | Prevent PaPaRa from adding gaps in the reference alignment                                 |                                     |
     >
     >##### **Example Command**
     >```
-    >papara -t cydrasil-v2-reference-tree.nwk -s cydrasil-v2-reference-alignment.phy -q query-seqs.fasta -r -n combined-aln
+    >papara -t cydrasil-v3-reference-tree.nwk -s cydrasil-v3-reference-alignment.phy -q query-seqs.fasta -r -n combined-aln
     >```
     >
 
@@ -151,23 +146,23 @@ The reference alignment was generated using [SSU-Align](http://eddylab.org/softw
     #### **EPA-ng Arguments**
     | Flag    | Description                                     | Filename                                                             |
     |---------|-------------------------------------------------|----------------------------------------------------------------------|
-    | -s      | Cydrasil reference alignment file in afa format | cydrasil-v2-reference-alignment.afa                                  |
-    | -t      | Reference tree file                             | cydrasil-v2-reference-tree.nwk                                       |
+    | -s      | Cydrasil reference alignment file in afa format | cydrasil-v3-reference-alignment.afa                                  |
+    | -t      | Reference tree file                             | cydrasil-v3-reference-tree.nwk                                       |
     | -q      | Query sequence alignment                        | SSU-Align: aligned-query-sequences-masked.afa \| PaPaRa: query.fasta |
-    | --model | Cydrasil model parameter specification file     | cydrasil-v2.bestModel                                                |
+    | --model | Cydrasil model parameter specification file     | cydrasil-v3.bestModel                                                |
     | -w      | Output directory                                |                                                                      |
     | -T      | Number of threads for multithreading            |                                                                      |
     >**IMPORTANT NOTE**
     >If you used PaPaRa to align your query sequences, you need to run an extra command before you do placements to remove the reference sequences from the query alignment.
     >***This is a product of how PaPaRa was coded. If you skip this step, your output file will contain both query and reference sequences as placements.***
     >```
-    >epa-ng --split cydrasil-v2-reference-alignment.phy papara_alignment.combined-aln
+    >epa-ng --split cydrasil-v3-reference-alignment.phy papara_alignment.combined-aln
     >```
     >The output file from this command is ```query.fasta```  
 
     **Example EPA-ng Command**
     ```
-    epa-ng -s cydrasil-v2-reference-alignment.afa -t cydrasil-v2-reference-tree.nwk -q aligned-query-sequences-masked.afa --model 
+    epa-ng -s cydrasil-v3-reference-alignment.afa -t cydrasil-v3-reference-tree.nwk -q aligned-query-sequences-masked.afa --model 
     ```
     **Output**
 
@@ -185,7 +180,7 @@ The reference alignment was generated using [SSU-Align](http://eddylab.org/softw
 
     2. Upload (drag and drop) .jplace file into an iTOL project
 
-    3. Reroot the tree by searching for **Listeria** and then clicking on its parent node (**I320**) and navigating to **Tree structure > Re-root the tree here**
+    3. Reroot the tree by searching for **WOR1** and then clicking on its parent node (**I2504**) and navigating to **Tree structure > Re-root the tree here**
 
     4. From the Controls box set parameters as follows:
 
